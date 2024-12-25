@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  .img-fluid {
+    border-radius: 5px;
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  .animated {
+    -webkit-animation-duration: 1s; /* Safari and Chrome */
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    from {opacity: 0; -webkit-transform: translateY(-20px);}
+    to {opacity: 1; -webkit-transform: translateY(0);}
+  }
+  
+  @keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+  .card-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #bookings {
+    margin-top: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #bookings {
+    margin-top: 20px;
+  }
+  
+  /* Add some basic animations */
+  .form-control {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Add a simple hover effect for the button */
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Add a subtle fade-in animation for new bookings */
+  #bookings div {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  #bookings div.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 600px; /* Adjusted to a consistent width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
